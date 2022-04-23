@@ -1,0 +1,9 @@
+# Ignoring pycache folders
+**/__pycache__/
+
+# Ignoring all debug checkpoints in the pretrained folder.
+checkpoints/pretrained_resnet_18/*
+
+# but excluding the pretrained model and logs
+!checkpoints/pretrained_resnet_18/checkpoint.pth.tar
+!checkpoints/pretrained_resnet_18/logs.csv
