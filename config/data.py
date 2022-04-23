@@ -1,7 +1,7 @@
 from utilities.augmentations import DEFAULT_DUAL_AUGS, DEFAULT_IMAGE_AUGS, CUSTOM_IMAGE_AUGS
 
 class DataConfig:
-    DATA_FOLDER = "/home/shaoren/Desktop/dataset_glas/warwick_qu_dataset_released_2016_07_08/Warwick QU Dataset (Released 2016_07_08)"
+    DATA_FOLDER = "/path/to/dataset_glas/warwick_qu_dataset_released_2016_07_08/Warwick QU Dataset (Released 2016_07_08)"
 
     INPUT_CHANNELS = 3
     OUTPUT_CHANNELS = 2
